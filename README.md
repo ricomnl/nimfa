@@ -5,6 +5,7 @@ Nimfa
 [![build: passing](https://coveralls.io/repos/marinkaz/nimfa/badge.svg)](https://coveralls.io/github/marinkaz/nimfa?branch=master)
 [![GitHub release](https://img.shields.io/github/release/marinkaz/nimfa.svg)](https://GitHub.com/marinkaz/nimfa/releases/)
 [![BSD license](https://img.shields.io/badge/License-BSD-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Conda Version](https://img.shields.io/conda/v/conda-forge/nimfa.svg)](https://anaconda.org/conda-forge/nimfa)
 
 Nimfa is a Python module that implements many algorithms for nonnegative matrix factorization. Nimfa is distributed under the BSD license.
 
@@ -49,6 +50,10 @@ To install for all users on Unix/Linux:
 
 For more detailed installation instructions,
 see the web page http://ai.stanford.edu/~marinka/nimfa.
+
+Alternatively, you may also install this package using conda:
+
+    conda install -c conda-forge nimfa
 
 Use
 ---
