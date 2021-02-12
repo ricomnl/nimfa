@@ -94,6 +94,10 @@ The recommended way to install Nimfa is by issuing::
 
 from the command line.
 
+Nimfa may also be installed using conda::
+
+	conda install -c conda-forge nimfa
+
 Nimfa makes extensive use of `SciPy`_ and `NumPy`_
 libraries for fast and convenient dense and sparse matrix manipulation and some linear
 algebra operations. There are not any additional prerequisites.
