@@ -4,6 +4,7 @@
 """
 
 from .bd import *
+from .conmf import *
 from .icm import *
 from .lfnmf import *
 from .lsnmf import *
@@ -18,6 +19,7 @@ from .pmfcc import *
 from .sepnmf import *
 
 methods = {"bd": Bd,
+           "conmf": CoNmf,
            "icm": Icm,
            "lfnmf": Lfnmf,
            "lsnmf": Lsnmf,
